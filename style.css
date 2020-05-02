@@ -342,7 +342,7 @@ body {
   height: auto;    
   background-color:whitesmoke;
   margin-top: -20vh;
-  padding: 15rem 2rem;
+  padding: 12rem 2rem 14rem 2rem;
 }
 
 .about-section__heading{
@@ -555,7 +555,7 @@ body {
 .tour-section{
   background: whitesmoke;
   margin-top: -25vh;
-  padding: 10rem 0;
+  padding: 4rem 0;
   text-align: center;
 }
 
@@ -895,7 +895,7 @@ body {
 .bg-video__content{
   width: 100%;
   height: 100%;
-object-fit: cover;                                          /*OR OVERFLOW: hidden. SAME AS backgound-image: cover 
+  object-fit: cover;                                          /*OR OVERFLOW: hidden. SAME AS backgound-image: cover 
                                                             and still maintains the aspect ratio*/
 }
 
@@ -1252,6 +1252,10 @@ object-fit: cover;                                          /*OR OVERFLOW: hidde
     font-size: 1rem;  
   }
 
+  .btn-more{
+    margin-bottom: 2rem;
+  }
+
   .navigation__button{
     top: 3rem;
     right: 3rem;
@@ -1260,6 +1264,12 @@ object-fit: cover;                                          /*OR OVERFLOW: hidde
   .navigation__background{
     top: 3.5rem;
     right: 3.5rem;
+  }
+
+  .header{
+    height: 85vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 68vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 68vh, 0 100%);
   }
 
   .header-title--main {
@@ -1522,8 +1532,9 @@ object-fit: cover;                                          /*OR OVERFLOW: hidde
   }
 
   .header{
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    height: 85vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
   }
 
   .header-title--main {
@@ -1536,7 +1547,16 @@ object-fit: cover;                                          /*OR OVERFLOW: hidde
   }
 
   .about-section{
-    margin-top: -12vh;  
+    margin-top: -16vh;  
+    padding: 19rem 2rem 17rem 2rem;
+  }
+
+  .u-margin-bottom-big{
+    margin-bottom: 2.5rem;
+  }
+
+  .u-margin-top-big{
+    margin-top: 4rem;
   }
 
   .feature-section{
@@ -1545,6 +1565,10 @@ object-fit: cover;                                          /*OR OVERFLOW: hidde
 
   .tour-section{
     margin-top: -8vh;  
+  }
+
+  .tour-section__heading{
+    margin-top: 13rem;
   }
 
   .about-section__heading,
